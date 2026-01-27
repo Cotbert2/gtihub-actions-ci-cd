@@ -1,4 +1,4 @@
-const isPerfect = (num ) => {
+const isPerfect = (num) => {
         if (num <= 1) return false;
         let sum = 1; // 1 is a proper divisor
         for (let i = 2; i <= Math.sqrt(num); i++) {
