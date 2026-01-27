@@ -1,5 +1,4 @@
-import { describe, it, expect } from 'vitest';
-import {  PerfectNumber} from './main';
+const { PerfectNumber } = require('../perfectNumber');
 
 describe('PerfectNumber', () => {
     const perfectNumber = new PerfectNumber();
