@@ -10,6 +10,6 @@ const isPerfect = (num) => {
             }
         }
         return sum === num;
-}
+};
 
 module.exports = isPerfect;
