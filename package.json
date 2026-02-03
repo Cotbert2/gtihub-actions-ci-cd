@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "firebase-tools": "^15.5.1"
   },
   "scripts": {
     "test": "jest ./test/*.test.js",

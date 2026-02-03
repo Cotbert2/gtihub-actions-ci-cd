@@ -27,6 +27,5 @@ jobs:
       - name: Run linter
         run: npm run lint
 
-      - name: Start application
-        run: |
-          echo "Starting application..."
+      - name: build
+        run: npm ci && npm run build 
