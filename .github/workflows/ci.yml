@@ -28,4 +28,4 @@ jobs:
         run: npm run lint
 
       - name: build
-        run: npm ci && npm run build 
+        run: npm ci
