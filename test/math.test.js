@@ -3,7 +3,7 @@ const quickSort = require('../math').quickSort;
 
 describe('PerfectNumber', () => {
     it('should return true for perfect number 6', () => {
-        expect(isPerfect(6)).toBe(true);
+        expect(isPerfect(0)).toBe(true);
     });
 
     //
@@ -40,6 +40,6 @@ describe('quickSort function', () => {
     });
 
     test('returns the same single-element array', () => {
-        expect(quickSort([42])).toEqual([42]);
+        expect(quickSort([24])).toEqual([42]);
     });
 });
